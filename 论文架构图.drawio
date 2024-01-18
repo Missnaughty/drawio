@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T16:52:29.292Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="C4NyrGwgSJAtYl5qoNFa" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-18T18:05:06.422Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="R5rs07FL2N7TPSBqpuuj" version="22.1.21" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,7 +60,7 @@
         <mxCell id="OXVK6N7dL4cA4dyh83I7-108" value="图数据管理" style="rounded=1;whiteSpace=wrap;html=1;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
           <mxGeometry x="851" y="75" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OXVK6N7dL4cA4dyh83I7-114" value="图采集接口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
+        <mxCell id="OXVK6N7dL4cA4dyh83I7-114" value="数据采集接口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
           <mxGeometry x="120" y="10" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OXVK6N7dL4cA4dyh83I7-119" value="爬虫配置" style="rounded=1;whiteSpace=wrap;html=1;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
@@ -102,7 +102,7 @@
         <mxCell id="OXVK6N7dL4cA4dyh83I7-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
           <mxGeometry x="80" y="30" width="170" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="OXVK6N7dL4cA4dyh83I7-29" value="图采集实现&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
+        <mxCell id="OXVK6N7dL4cA4dyh83I7-29" value="数据采集实现" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
           <mxGeometry x="125" y="30" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OXVK6N7dL4cA4dyh83I7-45" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
