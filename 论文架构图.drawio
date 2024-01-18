@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T16:50:13.586Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="L08yj3ldx41rT__ONjf3" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-18T16:50:23.537Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="uacHQ3RCCuvVL0EuXRU6" version="22.1.21" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,7 +24,7 @@
         <mxCell id="OXVK6N7dL4cA4dyh83I7-86" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="OXVK6N7dL4cA4dyh83I7-69" vertex="1">
           <mxGeometry x="350" y="12.5" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="OXVK6N7dL4cA4dyh83I7-70" value="权限校验" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="OXVK6N7dL4cA4dyh83I7-69" vertex="1">
+        <mxCell id="OXVK6N7dL4cA4dyh83I7-70" value="用户鉴权" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="OXVK6N7dL4cA4dyh83I7-69" vertex="1">
           <mxGeometry x="405" y="42.5" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OXVK6N7dL4cA4dyh83I7-87" value="用户权限管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="OXVK6N7dL4cA4dyh83I7-69" vertex="1">
