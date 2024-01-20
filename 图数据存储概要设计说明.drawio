@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-01-20T12:15:28.539Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="wKj-aVzWomQhOz7ReYob" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-20T17:06:18.537Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="uihfpX8aFShyqVc_24dn" version="22.1.21" type="github">
   <diagram name="第 1 页" id="jRL6ygz8Du5S71m1YgYy">
     <mxGraphModel dx="989" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Y2Ha5PT66DZoxck5R7xJ-13" value="图数据存储" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="110" width="600" height="480" as="geometry" />
+          <mxGeometry x="20" y="110" width="590" height="600" as="geometry" />
         </mxCell>
         <mxCell id="Y2Ha5PT66DZoxck5R7xJ-14" value="客户端" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="Y2Ha5PT66DZoxck5R7xJ-13">
-          <mxGeometry x="20" width="580" height="120" as="geometry" />
+          <mxGeometry x="20" width="570" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Y2Ha5PT66DZoxck5R7xJ-20" value="Web浏览器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y2Ha5PT66DZoxck5R7xJ-14">
           <mxGeometry x="110" y="30" width="120" height="60" as="geometry" />
@@ -17,33 +17,42 @@
           <mxGeometry x="350" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y2Ha5PT66DZoxck5R7xJ-26" value="存储服务" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="Y2Ha5PT66DZoxck5R7xJ-13">
-          <mxGeometry x="20" y="120" width="580" height="120" as="geometry" />
+          <mxGeometry x="20" y="120" width="570" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Y2Ha5PT66DZoxck5R7xJ-29" value="图存储服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y2Ha5PT66DZoxck5R7xJ-26">
           <mxGeometry x="250" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y2Ha5PT66DZoxck5R7xJ-15" value="存储接口" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="Y2Ha5PT66DZoxck5R7xJ-13">
-          <mxGeometry x="20" y="240" width="580" height="120" as="geometry" />
+          <mxGeometry x="20" y="240" width="570" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Y2Ha5PT66DZoxck5R7xJ-17" value="图数据管理接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y2Ha5PT66DZoxck5R7xJ-15">
-          <mxGeometry x="90" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y2Ha5PT66DZoxck5R7xJ-18" value="元数据管理接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y2Ha5PT66DZoxck5R7xJ-15">
-          <mxGeometry x="250" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y2Ha5PT66DZoxck5R7xJ-19" value="图数据批量导入接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y2Ha5PT66DZoxck5R7xJ-15">
           <mxGeometry x="400" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y2Ha5PT66DZoxck5R7xJ-16" value="存储引擎" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="Y2Ha5PT66DZoxck5R7xJ-13">
-          <mxGeometry x="20" y="360" width="580" height="120" as="geometry" />
+        <mxCell id="Y2Ha5PT66DZoxck5R7xJ-16" value="存储实现" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="Y2Ha5PT66DZoxck5R7xJ-13">
+          <mxGeometry x="20" y="360" width="570" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Y2Ha5PT66DZoxck5R7xJ-4" value="Hugegraph" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="Y2Ha5PT66DZoxck5R7xJ-16">
+        <mxCell id="Y2Ha5PT66DZoxck5R7xJ-38" value="存储接口实现" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y2Ha5PT66DZoxck5R7xJ-16">
+          <mxGeometry x="160" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2Ha5PT66DZoxck5R7xJ-41" value="高可用模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y2Ha5PT66DZoxck5R7xJ-16">
+          <mxGeometry x="320" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2Ha5PT66DZoxck5R7xJ-30" value="存储引擎" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="Y2Ha5PT66DZoxck5R7xJ-13">
+          <mxGeometry x="20" y="480" width="570" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2Ha5PT66DZoxck5R7xJ-31" value="Hugegraph" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="Y2Ha5PT66DZoxck5R7xJ-30">
           <mxGeometry x="90" y="34" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Y2Ha5PT66DZoxck5R7xJ-5" value="Neo4j" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="Y2Ha5PT66DZoxck5R7xJ-16">
-          <mxGeometry x="260" y="30" width="100" height="80" as="geometry" />
+        <mxCell id="Y2Ha5PT66DZoxck5R7xJ-32" value="Neo4j" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="Y2Ha5PT66DZoxck5R7xJ-30">
+          <mxGeometry x="250" y="30" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Y2Ha5PT66DZoxck5R7xJ-6" value="Amazon Neptune" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="Y2Ha5PT66DZoxck5R7xJ-16">
+        <mxCell id="Y2Ha5PT66DZoxck5R7xJ-33" value="TigerGraph " style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="Y2Ha5PT66DZoxck5R7xJ-30">
           <mxGeometry x="410" y="30" width="100" height="80" as="geometry" />
         </mxCell>
       </root>
