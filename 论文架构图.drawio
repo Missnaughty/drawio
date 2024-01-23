@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-21T16:45:02.891Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="AQWw-TfqYcEewbFIeCN6" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T21:08:36.092Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="P9UeSuZpgaeK0cJVpws-" version="22.1.21" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -148,19 +148,16 @@
           <mxGeometry x="115" y="175" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gIh5Fo65XQ78Bha1B1qZ-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="430" y="60" width="320" height="70" as="geometry" />
+          <mxGeometry x="430" y="60" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gIh5Fo65XQ78Bha1B1qZ-15" value="图分析任务管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="546.25" y="60" width="92.5" height="30" as="geometry" />
+          <mxGeometry x="440" y="60" width="92.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gIh5Fo65XQ78Bha1B1qZ-16" value="任务管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
           <mxGeometry x="440" y="90" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gIh5Fo65XQ78Bha1B1qZ-17" value="任务执行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="543.75" y="90" width="86.25" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gIh5Fo65XQ78Bha1B1qZ-18" value="任务监控" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="637" y="90" width="100" height="30" as="geometry" />
+        <mxCell id="gIh5Fo65XQ78Bha1B1qZ-42" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+          <mxGeometry x="550" y="60" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gIh5Fo65XQ78Bha1B1qZ-21" value="图分析实现" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
           <mxGeometry x="552.5" y="20" width="80" height="30" as="geometry" />
@@ -179,6 +176,15 @@
         </mxCell>
         <mxCell id="gIh5Fo65XQ78Bha1B1qZ-39" value="HugeGraph元数据管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
           <mxGeometry x="780" y="130" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gIh5Fo65XQ78Bha1B1qZ-17" value="任务调度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+          <mxGeometry x="560" y="90" width="86.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gIh5Fo65XQ78Bha1B1qZ-18" value="任务执行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+          <mxGeometry x="660" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gIh5Fo65XQ78Bha1B1qZ-44" value="图分析任务调度执行" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+          <mxGeometry x="591.88" y="60" width="116.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OXVK6N7dL4cA4dyh83I7-77" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;" parent="dNxyNK7c78bLwvsdeMH5-19" source="OXVK6N7dL4cA4dyh83I7-24" target="OXVK6N7dL4cA4dyh83I7-74" edge="1">
           <mxGeometry relative="1" as="geometry" />
